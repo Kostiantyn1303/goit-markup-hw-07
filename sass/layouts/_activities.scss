@@ -1,6 +1,6 @@
 .activities {
   padding-bottom: 94px;
-  &-title {
+  &__title {
     color: var(--secondary-text-color);
     margin-bottom: 50px;
 
@@ -9,15 +9,15 @@
     text-align: center;
     letter-spacing: 0.03em;
   }
-  &-list {
+  &__list {
     display: flex;
     gap: 30px;
   }
-  &-item {
+  &__item {
     flex-basis: calc((100% - 60px) / 3);
     position: relative;
   }
-  &-text {
+  &__text {
     display: flex;
     align-items: center;
     justify-content: center;

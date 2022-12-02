@@ -4,7 +4,7 @@
   padding-top: 200px;
   padding-bottom: 200px;
 }
-.overlay-hero {
+.hero--overlay {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
@@ -15,7 +15,7 @@
     url(../images/Imgherobackground.jpg);
   background-size: cover;
 }
-.hero-title {
+.hero__title {
   color: var(--white-color);
   margin-bottom: 30px;
 
@@ -25,7 +25,7 @@
   text-transform: uppercase;
   line-height: 1.3636;
 }
-.hero-button {
+.hero__button {
   color: var(--white-color);
   padding: 10px 32px;
   min-width: 216px;
@@ -45,7 +45,7 @@
   transition-duration: 250ms;
   transition-timing-function: var(--transition-timing-function);
 }
-.hero-button:hover,
-.hero-button:focus {
+.hero__button:hover,
+.hero__button:focus {
   background-color: var(--backgrount-btn-active);
 }

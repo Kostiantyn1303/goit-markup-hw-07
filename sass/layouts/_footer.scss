@@ -3,7 +3,7 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.logo-footer {
+.footer__logo {
   color: var(--blue-color);
   display: block;
   margin-bottom: 20px;
@@ -15,18 +15,18 @@
   letter-spacing: 0.03em;
   text-decoration-line: none;
 }
-.logo-white {
+.footer__logo--white {
   color: var(--white-color);
 }
 
-.address {
+.footer__address {
   font-family: "Roboto";
   font-style: normal;
   font-size: 14px;
   line-height: 1.7142;
   letter-spacing: 0.03em;
 }
-.adr-text {
+.footer__adr-text {
   color: var(--white-color);
   display: block;
   margin-bottom: 9px;
@@ -39,22 +39,22 @@
     color: var(--blue-color);
   }
 }
-.map-navigation {
+.footer__map-navigation {
   margin-bottom: 9px;
   text-decoration-line: none;
 }
-.address-item {
-  > .phone-footer {
+.footer__address-item {
+  > .footer__link {
     color: var(--footer-text-colors);
     text-decoration: none;
   }
-  > .mail-footer {
+  > .footer__link {
     color: var(--footer-text-colors);
     text-decoration-line: none;
   }
 }
 
-.mail-footer {
+.footer__link {
   display: block;
   margin-bottom: 9px;
   &:hover {
@@ -62,23 +62,22 @@
   }
 }
 
-.mail-footer,
-.phone-footer {
+.footer__link {
   transition: color;
   transition-duration: 250ms;
   transition-timing-function: var(--transition-timing-function);
 }
 
-.phone-footer:hover {
+.footer__link:hover {
   color: var(--blue-color);
 }
-.footer-box {
+.footer__box {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
 }
 
-.soc-footer-text {
+.footer__soc-text {
   margin-bottom: 20px;
   color: var(--white-color);
   font-weight: 700;
@@ -87,17 +86,17 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.soc-footer-list {
+.footer__soc-list {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
 }
-.soc-footer-item {
+.footer__soc-item {
   height: 44px;
   width: 44px;
 }
-.soc-footer-link {
+.footer__soc-link {
   width: 100%;
   height: 100%;
   background-color: var(--footer-background-icons);
@@ -115,16 +114,16 @@
   }
 }
 
-.soc-icons-footer {
+.footer__soc-icons {
   fill: var(--white-color);
 }
 
-.send-forms {
+.footer__send-forms {
   display: flex;
   text-align: center;
   justify-content: center;
 }
-.footer-forms-text {
+.footer__forms-text {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -134,7 +133,7 @@
 
   color: var(--white-color);
 }
-.email-input-footer {
+.footer__input-email {
   width: 358px;
   height: 50px;
   margin-right: 12px;
@@ -155,7 +154,7 @@
   }
 }
 
-.footer-input-btn {
+.footer__input-btn {
   display: flex;
   align-items: center;
   justify-content: center;

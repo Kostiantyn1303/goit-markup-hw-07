@@ -1,7 +1,7 @@
 .features {
   padding-top: 94px;
   padding-bottom: 94px;
-  &-title {
+  &__title {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -13,19 +13,19 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
-  &-list {
+  &__list {
     display: flex;
     gap: 30px;
   }
-  &-item {
+  &__item {
     flex-basis: calc((100% - 90px) / 4);
   }
-  &-icons {
+  &__icons {
     width: 70px;
     height: 70px;
     display: block;
   }
-  &-subtitle {
+  &__subtitle {
     color: var(--secondary-text-color);
     margin-bottom: 10px;
 
@@ -34,7 +34,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
   }
-  &-text {
+  &__text {
     color: var(--primary-text-color);
 
     font-size: 14px;
@@ -44,7 +44,7 @@
 }
 /* visually-hidden */
 
-.icons-box {
+.features__icons-box {
   display: flex;
   align-items: center;
   justify-content: center;
