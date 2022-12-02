@@ -18,6 +18,7 @@
 .logo-white {
   color: var(--white-color);
 }
+
 .address {
   font-family: "Roboto";
   font-style: normal;
@@ -33,26 +34,32 @@
   transition: color;
   transition-duration: 250ms;
   transition-timing-function: var(--transition-timing-function);
+  &:hover,
+  &:focus {
+    color: var(--blue-color);
+  }
 }
 .map-navigation {
   margin-bottom: 9px;
   text-decoration-line: none;
 }
-.adr-text:hover,
-.adr-text:focus {
-  color: var(--blue-color);
+.address-item {
+  > .phone-footer {
+    color: var(--footer-text-colors);
+    text-decoration: none;
+  }
+  > .mail-footer {
+    color: var(--footer-text-colors);
+    text-decoration-line: none;
+  }
 }
-.address-item > .phone-footer {
-  color: var(--footer-text-colors);
-  text-decoration: none;
-}
-.address-item > .mail-footer {
-  color: var(--footer-text-colors);
-  text-decoration-line: none;
-}
+
 .mail-footer {
   display: block;
   margin-bottom: 9px;
+  &:hover {
+    color: var(--blue-color);
+  }
 }
 
 .mail-footer,
@@ -61,9 +68,7 @@
   transition-duration: 250ms;
   transition-timing-function: var(--transition-timing-function);
 }
-.mail-footer:hover {
-  color: var(--blue-color);
-}
+
 .phone-footer:hover {
   color: var(--blue-color);
 }
@@ -104,11 +109,12 @@
   transition: color;
   transition-duration: 250ms;
   transition-timing-function: var(--transition-timing-function);
+  &:hover,
+  &:focus {
+    background-color: var(--blue-color);
+  }
 }
-.soc-footer-link:hover,
-.soc-footer-link:focus {
-  background-color: var(--blue-color);
-}
+
 .soc-icons-footer {
   fill: var(--white-color);
 }
@@ -140,14 +146,15 @@
   padding-left: 12px;
   transition: border-color 250ms var(--transition-timing-function),
     focus 250ms var(--transition-timing-function);
+  &::placeholder {
+    color: var(--footer-text-colors);
+  }
+  &:focus,
+  &:hover {
+    border-color: var(--blue-color);
+  }
 }
-.email-input-footer::placeholder {
-  color: var(--footer-text-colors);
-}
-.email-input-footer:focus,
-.email-input-footer:hover {
-  border-color: var(--blue-color);
-}
+
 .footer-input-btn {
   display: flex;
   align-items: center;
@@ -160,8 +167,8 @@
   color: var(--white-color);
   background-color: var(--blue-color);
   transition: background-color 250ms var(--transition-timing-function);
-}
-.footer-input-btn:hover,
-.footer-input-btn:focus {
-  background-color: var(--backgrount-btn-active);
+  &:hover,
+  &:focus {
+    background-color: var(--backgrount-btn-active);
+  }
 }
