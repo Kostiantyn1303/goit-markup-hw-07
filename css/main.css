@@ -99,7 +99,7 @@ button {
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
 }
-.logo-black {
+.logo--black {
   color: #000000;
 }
 
@@ -377,7 +377,6 @@ button {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 27px;
   padding-bottom: 27px;
   position: absolute;
   bottom: 0;
@@ -723,7 +722,9 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -917,8 +918,7 @@ button {
   padding: 20px 24px;
   border: 1px solid var(--border-portfolio-pictures);
 }
-
-.examples-thumb {
+.portfolio__examples-thumb {
   position: relative;
   overflow: hidden;
 }
@@ -961,12 +961,12 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -1097,17 +1097,17 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 auto;
-  width: 200px;
-  height: 50px;
-  font-weight: 700;
-  font-size: 16px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: 0 auto;
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
   line-height: 1.87;
   color: var(--white-color);
   background-color: var(--blue-color);
@@ -1150,6 +1150,9 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;

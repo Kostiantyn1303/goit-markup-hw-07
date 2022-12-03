@@ -45,9 +45,7 @@
 /* visually-hidden */
 
 .features__icons-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include centredFlex();
   margin-bottom: 30px;
   width: 270px;
   height: 120px;

@@ -18,10 +18,7 @@
     position: relative;
   }
   &__text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 27px;
+    @include centredFlex();
     padding-bottom: 27px;
     position: absolute;
     bottom: 0;

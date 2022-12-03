@@ -104,9 +104,8 @@
     padding: 20px 24px;
     border: 1px solid var(--border-portfolio-pictures);
   }
-}
-
-.examples-thumb {
-  position: relative;
-  overflow: hidden;
+  &__examples-thumb {
+    position: relative;
+    overflow: hidden;
+  }
 }
